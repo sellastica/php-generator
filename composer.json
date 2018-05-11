@@ -1,12 +1,11 @@
 {
 	"name": "sellastica/php-generator",
-	"type": "project",
 	"homepage": "https://github.com/sellastica/php-generator",
 	"license": "proprietary",
 	"authors": [
 		{
 			"name": "Tomáš Krejčí",
-			"email": "tomas@differencemakers.cz"
+			"homepage": "http://www.sellastica.com"
 		}
 	],
 	"require": {

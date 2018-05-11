@@ -68,7 +68,7 @@ class PhpMethodParameterRenderer extends AbstractRenderer
 	public function render(): string
 	{
 		$return = [];
-		if ($this->type) {
+		if ($this->type && $this->type !== 'mixed') {
 			$return[] = $this->type;
 		}
 

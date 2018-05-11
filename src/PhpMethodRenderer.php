@@ -149,7 +149,7 @@ class PhpMethodRenderer extends AbstractRenderer
 		if (!sizeof($this->params)) {
 			$heading .= $this->headingEnd();
 			$return[] = $this->renderLine($heading);
-		} elseif (sizeof($this->params) == 1) {
+		} elseif (sizeof($this->params) === 1) {
 			$heading .= trim($this->params[0]->render());
 			$heading .= $this->headingEnd();
 			$return[] = $this->renderLine($heading);
